@@ -3,11 +3,11 @@ local cfg = {}
 
 -- mysql credentials
 cfg.db = {
-  driver = "oxmysql",
+  driver = "ghmattimysql",
   host = "127.0.0.1",
   database = "vRP",
   user = "vRP",
-  password = "password"
+  password = "@bodaUM23"
 }
 
 cfg.server_id = "main" -- identify the server (ex: in database)
