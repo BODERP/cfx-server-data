@@ -1,5 +1,5 @@
 # Base Resources
-citizen/system_resources/
+crashes
 
 # Temp/cache directories
 /server-data/cache/
