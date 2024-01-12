@@ -1,1 +1,8 @@
+# Base Resources
 citizen/system_resources/
+
+# Temp/cache directories
+/server-data/cache/
+
+# Filetypes
+*.dll
