@@ -1,8 +1,5 @@
 # Base Resources
-crashes
+/crashes/
 
 # Temp/cache directories
 /server-data/cache/
-
-# Filetypes
-*.dll
