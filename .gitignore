@@ -1,4 +1,1 @@
-*.cfg
-/cache/
-/resources/\[local\]/
-/db/
+citizen/system_resources/
