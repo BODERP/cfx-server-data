@@ -5,9 +5,9 @@ local cfg = {}
 cfg.db = {
   driver = "ghmattimysql",
   host = "127.0.0.1",
-  database = "vRP",
-  user = "vRP",
-  password = "@bodaUM23"
+  database = "vrp",
+  user = "root",
+  password = ""
 }
 
 cfg.server_id = "main" -- identify the server (ex: in database)
