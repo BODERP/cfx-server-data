@@ -14,10 +14,10 @@
 
 
 -- Copiando estrutura do banco de dados para hard
-CREATE DATABASE IF NOT EXISTS `HarD.vRP` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `HarD.vRP`;
+CREATE DATABASE IF NOT EXISTS `vrp` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `vrp`;
 
--- Copiando estrutura para tabela hard.vrp_srv_data
+-- Copiando estrutura para tabela vrp_srv_data
 CREATE TABLE IF NOT EXISTS `vrp_srv_data` (
   `dkey` varchar(100) NOT NULL,
   `dvalue` text DEFAULT NULL,
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `vrp_srv_data` (
 
 -- Exportação de dados foi desmarcado.
 
--- Copiando estrutura para tabela hard.vrp_users
+-- Copiando estrutura para tabela vrp_users
 CREATE TABLE IF NOT EXISTS `vrp_users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `last_login` varchar(255) NOT NULL,
@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `vrp_users` (
 
 -- Exportação de dados foi desmarcado.
 
--- Copiando estrutura para tabela hard.vrp_user_data
+-- Copiando estrutura para tabela vrp_user_data
 CREATE TABLE IF NOT EXISTS `vrp_user_data` (
   `user_id` int(11) NOT NULL,
   `dkey` varchar(100) NOT NULL,
@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS `vrp_user_data` (
 
 -- Exportação de dados foi desmarcado.
 
--- Copiando estrutura para tabela hard.vrp_user_identities
+-- Copiando estrutura para tabela vrp_user_identities
 CREATE TABLE IF NOT EXISTS `vrp_user_identities` (
   `user_id` int(11) NOT NULL,
   `registration` varchar(20) DEFAULT NULL,
@@ -65,7 +65,7 @@ CREATE TABLE IF NOT EXISTS `vrp_user_identities` (
 
 -- Exportação de dados foi desmarcado.
 
--- Copiando estrutura para tabela hard.vrp_user_ids
+-- Copiando estrutura para tabela vrp_user_ids
 CREATE TABLE IF NOT EXISTS `vrp_user_ids` (
   `identifier` varchar(100) NOT NULL,
   `user_id` int(11) DEFAULT NULL,
