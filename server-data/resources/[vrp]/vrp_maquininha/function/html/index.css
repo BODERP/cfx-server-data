@@ -1,0 +1,44 @@
+body {
+    background: none !important;
+}
+
+#text {
+	font-size: 10px;
+}
+
+#container {
+    font-size: 20px;
+    position: fixed;
+    top: 55%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+	background: transparent url('img/maquina_pronta.png');
+    height: 450px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+
+button {
+	border: 1px solid transparent;
+	background: transparent;
+	border-radius: 55px;
+	margin-top: 16px;
+	margin-left: 60px;
+	width: 130px;
+    padding: 12px;
+}
+
+input {
+	color: black;
+	background: transparent;background: transparent;
+	border: 1px solid transparent;
+	margin-left: 68px;
+	margin-top: 30px;
+	border-radius: 5px;
+	text-align: center;
+    width: 47%;
+    font-size: 15px;
+    padding: 8px;
+}
+
