@@ -1,0 +1,32 @@
+{
+  "token": "1db69b2722c09d1cfc01ad1d7d666a10402a284f93c1552635244e47271faad0",
+  "mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "vrpex",
+    "user": "root",
+    "password": ""
+  },
+  "snowflake": {
+    "vehicles": "vrp_user_vehicles",
+    "priority": "vrp_priority",
+    "esx": {
+      "admin_group": "admin",
+      "default_group": "unemployed",
+      "vehicle_plate": "AAA 000"
+    }
+  },
+  "requireOnlineToDelivery": false,
+  "plugins": [],
+  "chat": {
+    "enabled": true,
+    "global": true,
+    "format": "${jogador} comprou ${produto}."
+  },
+  "nui": {
+    "enabled": true,
+    "title": "Parabéns, ${jogador}",
+    "subtitle": "Você acabou de adquirir ${produto}"
+  },
+  "webhook": "link-do-webhook"
+}

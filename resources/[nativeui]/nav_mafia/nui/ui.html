@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="ui.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="actionmenu">
+			<div id="mainmenu">
+				<button class="menuoption" data-sub="armamentos">Armamentos</button>
+				<button class="menuoption" data-action="fechar">Fechar</button>
+			</div>
+
+			<div data-parent="mainmenu" id="armamentos" style="display: none;">
+				<button class="menuoption" data-sub="armamentos-fogo">Pecas de armas</button>
+			</div>
+
+			<div data-parent="armamentos" id="armamentos-fogo" style="display: none;">
+				<button class="menuoption" data-sub="armamentos-fogo-comprar">Comprar</button>
+			</div>
+			<div data-parent="armamentos-fogo" id="armamentos-fogo-comprar" style="display: none;">
+				<button class="menuoption" data-action="armamentos-comprar-peca"><l>Peca de armas 10x</l><r>$10.000</r></button>
+
+		<script src="ui.js" type="text/javascript"></script>
+	</body>
+</html>

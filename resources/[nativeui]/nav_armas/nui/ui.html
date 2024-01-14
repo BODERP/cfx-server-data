@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="ui.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="actionmenu">
+			<div id="mainmenu">
+				<button class="menuoption" data-sub="fabricar">Armas</button>
+				<button class="menuoption" data-sub="munic">Munições</button>
+				<button class="menuoption" data-action="fechar">Fechar</button>
+			</div>
+
+			<div data-parent="mainmenu" id="fabricar" style="display: none;">
+				<button class="menuoption" data-action="fabricar-arma-pistola"><l>M1911</l><r>R$15.000</r></button>
+				<!--<button class="menuoption" data-action="fabricar-arma-escopeta"><l>Cano Serrado</l><r>R$45.000</r></button>-->
+				<button class="menuoption" data-action="fabricar-arma-mag"><l>MAG-PDR</l><r>R$50.000</r></button>
+				<button class="menuoption" data-action="fabricar-arma-ak"><l>AK-47</l><r>R$70.000</r></button>
+			</div>
+
+			<div data-parent="mainmenu" id="munic" style="display: none;">
+				<button class="menuoption" data-action="fabricar-munic-pistola"><l>Munição M1911</l><r>25x Cápsulas</r></button>
+				<!--<button class="menuoption" data-action="fabricar-munic-escopeta"><l>Munição Cano Serrado</l><r>50x Cápsulas</r></button>-->
+				<button class="menuoption" data-action="fabricar-munic-mag"><l>Munição MAG-PDR</l><r>75x Cápsulas</r></button>
+				<button class="menuoption" data-action="fabricar-munic-ak"><l>Munição AK-47</l><r>100x Cápsulas</r></button>
+			</div>
+		</div>
+		<script src="ui.js" type="text/javascript"></script>
+	</body>
+</html>

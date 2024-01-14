@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="ui.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="actionmenu">
+			<div id="mainmenu">
+				<button class="menuoption" data-sub="projetos">Projetos</button>
+				<button class="menuoption" data-sub="utilidades">Utilidades</button>
+				<button class="menuoption" data-sub="subprodutos">Sub-Produtos</button>
+				<button class="menuoption" data-action="fechar">Fechar</button>
+			</div>
+
+			<div data-parent="mainmenu" id="projetos" style="display: none;">
+				<button class="menuoption" data-sub="projetos-comprar">Comprar</button>
+			</div>
+			<div data-parent="projetos" id="projetos-comprar" style="display: none;">
+				<button class="menuoption" data-action="projetos-comprar-projetoassaultrifle"><l>Projeto AK-47</l><r>R$25.000</r></button>
+				<button class="menuoption" data-action="projetos-comprar-projetoassaultsmg"><l>Projeto MAG-PDR</l><r>R$20.000</r></button>
+				<button class="menuoption" data-action="projetos-comprar-projetopistol"><l>Projeto M1911</l><r>R$5.000</r></button>
+				<!--<button class="menuoption" data-action="projetos-comprar-projetosawnoffshotgun"><l>Projeto Cano Serrado</l><r>R$45.000</r></button>-->
+				
+			</div>-->
+
+
+		<!-- Utilidades -->
+		<div data-parent="mainmenu" id="utilidades" style="display: none;">
+			<button class="menuoption" data-sub="utilidades-comprar">Comprar</button>
+			<button class="menuoption" data-sub="utilidades-vender">Vender</button>
+		</div>
+		<div data-parent="utilidades" id="utilidades-comprar" style="display: none;">
+			<button class="menuoption" data-action="utilidades-comprar-algemas"><l>Algemas</l><r>R$5.000</r></button>
+			<button class="menuoption" data-action="utilidades-comprar-capuz"><l>Capuz</l><r>R$3.000</r></button>
+			<button class="menuoption" data-action="utilidades-comprar-c4"><l>C-4</l><r>R$3.500</r></button>
+			<button class="menuoption" data-action="utilidades-comprar-serra"><l>Serra</l><r>R$11.000</r></button>
+			<button class="menuoption" data-action="utilidades-comprar-furadeira"><l>Furadeira</l><r>R$8.000</r></button>
+			<button class="menuoption" data-action="utilidades-comprar-pendrive"><l>Pendrive</l><r>R$2500</r></button>
+			<!---<button class="menuoption" data-action="utilidades-comprar-capsula"><l>Cápsulas</l><r>R$200</r></button>-->
+		</div>
+		<div data-parent="utilidades" id="utilidades-vender" style="display: none;">
+			<button class="menuoption" data-action="utilidades-vender-algemas"><l>Algemas</l><r>R$1.000</r></button>
+			<button class="menuoption" data-action="utilidades-vender-c4"><l>C-4</l><r>R$25.00</r></button>
+			<!---<button class="menuoption" data-action="utilidades-vender-capsula"><l>Cápsulas</l><r>R$2000</r></button>-->
+		</div>
+
+		<!-- Utilidades -->
+		<div data-parent="mainmenu" id="subprodutos" style="display: none;">
+			<button class="menuoption" data-sub="subprodutos-comprar">Comprar</button>
+			<button class="menuoption" data-sub="subprodutos-vender">Vender</button>
+		</div>
+		<div data-parent="subprodutos" id="subprodutos-comprar" style="display: none;">
+			<button class="menuoption" data-action="subprodutos-comprar-pipe"><l>10x Pipe</l><r>R$120</r></button>
+			<button class="menuoption" data-action="subprodutos-comprar-glicerina"><l>10x Glicerina</l><r>R$120</r></button>
+			<button class="menuoption" data-action="subprodutos-comprar-ziplock"><l>10x Saco Ziplock</l><r>R$120</r></button>
+			<button class="menuoption" data-action="subprodutos-comprar-capsula"><l>10x Capsula</l><r>R$120</r></button>
+			<button class="menuoption" data-action="subprodutos-comprar-seda"><l>10x Sedas</l><r>R$120</r></button></div>
+		<div data-parent="subprodutos" id="subprodutos-vender" style="display: none;">
+			<button class="menuoption" data-action="subprodutos-vender-pipe"><l>10x Pipe</l><r>R$120</r></button>
+			<button class="menuoption" data-action="subprodutos-vender-glicerina"><l>10x Glicerina</l><r>R$120</r></button>
+			<button class="menuoption" data-action="subprodutos-vender-ziplock"><l>10x Saco Ziplock</l><r>R$120</r></button>
+			<button class="menuoption" data-action="subprodutos-vender-seda"><l>10x Sedas</l><r>R$120</r></button>	</div>
+				</div>
+			</div>
+
+					<!-- Utilidades -->
+		<!---<div data-parent="mainmenu" id="armamentos" style="display: none;">
+			<button class="menuoption" data-action="pistolas-comprar-hk"><l>1x HK P7M10
+			</l><r>R$120</r></button>
+			</div>-->
+		<script src="ui.js" type="text/javascript"></script>
+	</body>
+</html>

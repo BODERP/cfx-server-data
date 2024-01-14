@@ -1,0 +1,35 @@
+[1] = { ['x'] = 395.06, ['y'] = -988.9, ['z'] = 28.84 }, -- Ponto DP (ida)
+[2] = { ['x'] = 159.39, ['y'] = -1011.11, ['z'] = 28.97 }, -- Ponto Praça 1 (ida)
+[3] = { ['x'] = -46.53, ['y'] = -1129.41, ['z'] = 25.58 }, -- Ponto Concessionária
+[4] = { ['x'] = -209.15, ['y'] = -1410.8, ['z'] = 30.77 }, -- Ponto Benny's
+[5] = { ['x'] = -393.79, ['y'] = -1698.17, ['z'] = 18.3 }, -- Ponto Reciclagem 1 (ida)
+[6] = { ['x'] = -145.57, ['y'] = -2046.12, ['z'] = 22.54 }, -- Ponto Estádio
+[7] = { ['x'] = -989.07, ['y'] = -2734.83, ['z'] = 13.4 }, -- Ponto Aeroporto
+[8] = { ['x'] = -756.19, ['y'] = -2448.41, ['z'] = 13.95 }, -- Ponto Aeroporto (Galpões)
+[9] = { ['x'] = -784.6, ['y'] = -2318.47, ['z'] = 14.2 }, -- Ponto Aeroporto (Prédios)
+[10] = { ['x'] = -1090.1, ['y'] = -1991.39, ['z'] = 12.62 }, -- Ponto Desmanche
+[11] = { ['x'] = -680.17, ['y'] = -1669.48, ['z'] = 24.63 }, -- Ponto Reciclagem 2 (volta)
+[12] = { ['x'] = -587.7, ['y'] = -1823.91, ['z'] = 22.78 }, -- Aleatório
+[13] = { ['x'] = -45.71, ['y'] = -1650.8, ['z'] = 28.78 }, -- Ponto Grove
+[14] = { ['x'] = -139.27, ['y'] = -1495.28, ['z'] = 33.37 }, -- Ponto Prédios
+[15] = { ['x'] = -60.27, ['y'] = -1377.01, ['z'] = 28.82 }, -- Ponto Lavacar
+[16] = { ['x'] = 82.43, ['y'] = -1302.48, ['z'] = 28.76 }, -- Ponto Vanilla
+[17] = { ['x'] = 177.33, ['y'] = -1037.43, ['z'] = 28.79 }, -- Ponto Praça 2 (volta)
+[18] = { ['x'] = 355.93, ['y'] = -1064.45, ['z'] = 28.98 }, -- Ponto DP (volta)
+[19] = { ['x'] = 794.54, ['y'] = -955.53, ['z'] = 25.39 }, -- Ponto Alfaiataria
+[20] = { ['x'] = 786.11, ['y'] = -776.37, ['z'] = 25.9 }, -- Aleatório
+[21] = { ['x'] = 799.39, ['y'] = -345.46, ['z'] = 51.49 }, -- Ponto Favela do Campinho
+[22] = { ['x'] = 920.48, ['y'] = -201.67, ['z'] = 72.0 }, -- Ponto Central dos Taxistas
+[23] = { ['x'] = 847.95, ['y'] = -78.77, ['z'] = 80.04 }, -- Ponto do Cassino
+[24] = { ['x'] = 600.17, ['y'] = -59.62, ['z'] = 73.38 }, -- Aleatório
+[25] = { ['x'] = 482.4, ['y'] = -283.42, ['z'] = 46.73 }, -- Aleatório
+[26] = { ['x'] = 246.22, ['y'] = -586.28, ['z'] = 42.61 }, -- Ponto do Hospital
+[27] = { ['x'] = 224.75, ['y'] = -854.05, ['z'] = 29.58 } -- Ponto da Praça (final)
+
+
+
+
+Falta:
+
+resolver o ponto do aeroporto (adicionar mais 1 ou retirar o ponto de lá?)
+resolver o problema da linha circular (no último ponto o script não sabe mais pra onde vai)
