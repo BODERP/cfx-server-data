@@ -4,3 +4,5 @@ cache/
 *.exe
 *.json
 *.replxx_history
+*.crt
+*.key
