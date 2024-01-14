@@ -1,4 +1,6 @@
 citizen/
+cache/
 *.dll
 *.exe
 *.json
+*.replxx_history
