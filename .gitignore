@@ -1,0 +1,4 @@
+citizen/
+*.dll
+*.exe
+*.json
