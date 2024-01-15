@@ -580,7 +580,7 @@ RegisterCommand('cds',function(source,args,rawCommand)
 	if vRP.hasPermission(user_id,"admin.permissao") or vRP.hasPermission(user_id,"mod.permissao") or vRP.hasPermission(user_id,"suporte.permissao") then
 		local x,y,z = vRPclient.getPosition(source)
 		vRP.prompt(source,"Cordenadas:", "['x'] = "..tD(x)..", ['y'] = "..tD(y)..", ['z'] = "..tD(z))
-		SendWebhookMessage(webhookcds,"```prolog\n[ID]: "..user_id.." "..identity.name.." "..identity.firstname.." \n[MOSTROU A COORDENADA]: "..tD(x)..", ['y'] = "..tD(y)..", ['z'] = "..tD(z).." "..os.date("\n[Data]: %d/%m/%Y [Hora]: %H:%M:%S").." \r```")
+		SendWebhookMessage(webhookcds,"```prolog\n[ID]: "..user_id.." "..identity.name.." "..identity.firstname.." \n[MOSTROU A COORDENADA]: ['x'] = "..tD(x)..", ['y'] = "..tD(y)..", ['z'] = "..tD(z).." "..os.date("\n[Data]: %d/%m/%Y [Hora]: %H:%M:%S").." \r```")
 	end
 end)
 -----------------------------------------------------------------------------------------------------------------------------------------
